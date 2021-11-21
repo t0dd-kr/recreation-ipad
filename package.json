@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.28.0",
+    "sass": "^1.43.4",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
