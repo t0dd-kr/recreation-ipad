@@ -29,7 +29,7 @@
   </div>
   <div class="slide flex center" @click="currentCategory != -1 ? currentSlide += 1 : null">
     <template v-if="currentCategory == -1">
-      몸으로 말해요
+      몸으로<br> 말해요
     </template>
     <template v-else>
       <template v-if="currentSlide == -1">

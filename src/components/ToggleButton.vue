@@ -20,7 +20,7 @@
 <style lang="scss" scoped>
   .button {
     width: 100%;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     border: 2px solid var(--primary);
     border-radius: 8px;
