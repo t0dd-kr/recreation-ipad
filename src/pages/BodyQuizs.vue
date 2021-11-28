@@ -51,10 +51,10 @@
   .slide {
     margin-top: 30px;
     width: 100%;
-    height: calc(100vh - 90px - 55px);
+    height: calc(100% - 90px - 55px);
     background-color: var(--primary);
     color: #fff;
-    font-size: 180px;
+    font-size: 165px;
     font-weight: 900;
     user-select: none;
   }

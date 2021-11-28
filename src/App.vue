@@ -83,7 +83,7 @@
     right: 30px;
     top: 30px;
     width: calc(100vw - 390px);
-    height: calc(100vh - 60px);
+    height: calc(100vh - 160px);
     box-sizing: border-box;
 
     overflow: auto;

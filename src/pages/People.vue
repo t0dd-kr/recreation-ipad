@@ -47,7 +47,7 @@
           <div class="flex column">
             <img 
               :src="`https://nymjbuqzqsfavybzsxds.supabase.in/storage/v1/object/public/recreation/people/${people[currentCategory - 1][currentSlide - 15].type}/${people[currentCategory - 1][currentSlide - 15].image}`" 
-              style="height: calc(100vh - 400px); max-width: 100%;"
+              style="height: calc(100% - 400px); max-width: 100%;"
             >
             <div class="flex center" style="font-size: 100px;">
               {{ people[currentCategory - 1][currentSlide - 15].name }}
@@ -66,7 +66,7 @@
   .slide {
     margin-top: 30px;
     width: 100%;
-    height: calc(100vh - 90px - 55px);
+    height: calc(100% - 90px - 55px);
     background-color: var(--primary);
     color: #fff;
     font-size: 180px;
